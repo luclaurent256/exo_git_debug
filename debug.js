@@ -23,7 +23,7 @@ function getTotalProductAndAmount(products) {
     totalAmount += products[i].price;
     totalProduct += products[i].quantity;
   }
-  return `montant total: ${totalAmount}, quantité total : ${totalProduct} !!!!!!!!!!`;
+  return `montant total: ${totalAmount}, quantité total : ${totalProduct} `;
 }
 
 const result = getTotalProductAndAmount(products);
